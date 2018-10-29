@@ -16,6 +16,20 @@ The original paper from which this data comes is here:
 
 Dimitrios Kotzias, Misha Denil, Nando de Freitas, and Padhraic Smyth. 2015. From Group to Individual Labels Using Deep Features. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '15). ACM, New York, NY, USA, 597-606. DOI: https://doi.org/10.1145/2783258.2783380
 
+Each of the three files contains lines that have a sentence followed by a score of either 0 or 1.
+The sentence is separated from the score by a tab character, which in Python is `\t`.
+
+So this line of code reads a file in this format into dictionary.  While the file is not, strictly
+speaking, a "Comma Separate Value" file (strictly speaking, its a "tab separated value" file,), we
+can use the software for CSV files to read it:
+
+```python
+   df = pd.read_csv(filepath, names=['sentence', 'label'], sep='\t')
+```
+
+So that line of code reads one of these files into a list of dictionaries, with
+each dictionary having the keys `'sentence'` and  `'label'`.
+
 # Libraries Used
 
 The code in this repo uses [Pandas](https://pandas.pydata.org/), 
