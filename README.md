@@ -33,3 +33,10 @@ the command `python3` to bring up Python, you may need to use:
 ```
 pip3 install pandas
 ```
+
+# More about Pandas
+
+You can read more about Pandas in this book, which is available with full-text access from UCSB IP addresses,
+or from off campus using your UCSBNetID and the [Campus VPN](http://www.ets.ucsb.edu/services/campus-vpn/get-connected):
+
+[Python for Data Analysis, 2nd Edition](https://proquest.safaribooksonline.com/book/programming/python/9781491957653)
