@@ -8,14 +8,19 @@ The contents of this repo are based on working with this tutorial:
 
 # Libraries Used
 
-The code in this repo uses [Pandas](https://pandas.pydata.org/), 
-which is a Python Data Analysis Library.
+The code in this repo uses 
+
+* [Pandas](https://pandas.pydata.org/), which is a Python Data Analysis Library.
+* [sklearn](http://scikit-learn.org/stable/install.html) which is a library for Machine Learning in Python
 
 Before you start using the code, you will likely need to install Pandas.  Here's how:
 
 ```
 pip install pandas
+pip install sklearn
 ```
+
+The `pip install sklearn` line also installs `scipy` and `scikit-learn`.
 
 On some machines, e.g. those with both Python 2 and Python 3 installed, where you use
 the command `python3` to bring up Python, you may need to use:
