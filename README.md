@@ -6,6 +6,31 @@ The contents of this repo are based on working with this tutorial:
 
 * https://realpython.com/python-keras-text-classification/
 
+# Libraries Used
+
+The code in this repo uses [Pandas](https://pandas.pydata.org/), 
+which is a Python Data Analysis Library.
+
+Before you start using the code, you will likely need to install Pandas.  Here's how:
+
+```
+pip install pandas
+```
+
+On some machines, e.g. those with both Python 2 and Python 3 installed, where you use
+the command `python3` to bring up Python, you may need to use:
+
+```
+pip3 install pandas
+```
+
+# More about Pandas
+
+You can read more about Pandas in this book, which is available with full-text access from UCSB IP addresses,
+or from off campus using your UCSBNetID and the [Campus VPN](http://www.ets.ucsb.edu/services/campus-vpn/get-connected):
+
+[Python for Data Analysis, 2nd Edition](https://proquest.safaribooksonline.com/book/programming/python/9781491957653)
+
 
 # Tagged Data
 
@@ -52,27 +77,3 @@ The method `.head()` of a Pandas Data Frame will show me the first few lines of 
 ```
 
 
-# Libraries Used
-
-The code in this repo uses [Pandas](https://pandas.pydata.org/), 
-which is a Python Data Analysis Library.
-
-Before you start using the code, you will likely need to install Pandas.  Here's how:
-
-```
-pip install pandas
-```
-
-On some machines, e.g. those with both Python 2 and Python 3 installed, where you use
-the command `python3` to bring up Python, you may need to use:
-
-```
-pip3 install pandas
-```
-
-# More about Pandas
-
-You can read more about Pandas in this book, which is available with full-text access from UCSB IP addresses,
-or from off campus using your UCSBNetID and the [Campus VPN](http://www.ets.ucsb.edu/services/campus-vpn/get-connected):
-
-[Python for Data Analysis, 2nd Edition](https://proquest.safaribooksonline.com/book/programming/python/9781491957653)
