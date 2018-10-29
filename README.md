@@ -38,7 +38,18 @@ So that line of code reads one of these files into something called a Pandas Dat
 >>> 
 ```
 
+The method `.head()` of a Pandas Data Frame will show me the first few lines of the data:
 
+```
+>>> df.head()
+                                            sentence  label
+0  A very, very, very slow-moving, aimless movie ...      0
+1  Not sure who was more lost - the flat characte...      0
+2  Attempting artiness with black & white and cle...      0
+3       Very little music or anything to speak of.        0
+4  The best scene in the movie was when Gerardo i...      1
+>>> 
+```
 
 
 # Libraries Used
